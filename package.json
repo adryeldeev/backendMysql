@@ -2,7 +2,7 @@
   "name": "nodejsbackendmysql",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.js",
+  "main": "index.js",
   "type": "module",
   "node": "18.x",
   "scripts": {
