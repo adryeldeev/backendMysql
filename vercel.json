@@ -1,11 +1,12 @@
-{
-    "name": "nodejsbackendmysql",
+{   
     "version": 2,
-    "public": true,
-    "build":{
-        "src":"src/server.js",
-        "use": "@vercel/node"
-    },
+    "builds":[
+{
+    "src":"src/server.js",
+    "use": "@vercel/node"
+}
+    
+],
     "routes":[
         {
             "src": "/(.*)",
