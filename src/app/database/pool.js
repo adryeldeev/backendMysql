@@ -5,11 +5,10 @@ import mysql from 'mysql'
 
 
 const pool = mysql.createPool({
-    host: 'aws.connect.psdb.cloud',
-    user: '9j1fy2jo2ptyun20zsrt',
-    password: 'pscale_pw_kzhg0DNFv3NtgSFB3edmIGWxDoFyHnzzpF1VBf0EMsv',
-    database: 'bdmysql'
-    
+    host:'sql.freedb.tech',
+    user:'freedb_mysqlbd',
+    password:"MS3AB?unEA$YM@$",
+    database:'freedb_mysqlbd'
 })
 
 pool.getConnection((err, connection)=>{
