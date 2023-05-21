@@ -1,9 +1,5 @@
 import mysql from 'mysql'
 
-
-
-
-
 const pool = mysql.createPool({
     host:'sql.freedb.tech',
     user:'freedb_mysqlbd',
